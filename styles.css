@@ -68,7 +68,6 @@
   src: url('assets/fonts/Rubik-Bold.woff2') format('woff2');
 }
 
-
 /* Self-hosted fonts (Inter + Rubik for multi-language support) */
 
 /* Inter font (English / LTR languages) */
@@ -923,7 +922,6 @@ ul, ol {
   }
 }
 
-
 /* ============================================
    NAVBAR LAYOUT - POST-GENERATION FIXES
    Structural layout only - colors from Claude
@@ -1751,7 +1749,6 @@ html[lang="ar"] .nav-cta-btn {
 
 /* Post-generation fix: Remove main element margin-top and padding-top */
 main { margin-top: 0 !important; padding-top: 0 !important; }
-
 
 /* Footer Styles */
 .site-footer {
@@ -3134,71 +3131,6 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   }
 }
 
-/* services-service-cards */
-.services-service-cards-section {
-  position: relative;
-  overflow: visible;
-  background-color: #F7F7F5;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'%3E%3Cg fill='none' stroke='rgba(30,58,138,0.10)' stroke-width='1'%3E%3Cpath d='M10 80c40-30 90-30 130 0s90 30 130 0'/%3E%3Cpath d='M-10 110c40-30 90-30 130 0s90 30 130 0'/%3E%3Cpath d='M10 140c40-30 90-30 130 0s90 30 130 0'/%3E%3Cpath d='M-10 170c40-30 90-30 130 0s90 30 130 0'/%3E%3C/g%3E%3Cg fill='none' stroke='rgba(212,137,58,0.12)' stroke-width='1'%3E%3Cpath d='M20 30c30-20 70-20 100 0s70 20 100 0'/%3E%3C/g%3E%3C/svg%3E");
-  background-size: 320px 320px;
-  background-repeat: repeat;
-  color: var(--text-dark);
-  padding: 80px 16px 100px;
-  direction: rtl;
-}
-
-.services-service-cards-container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.services-service-cards-header {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.services-service-cards-header h2 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 1.3;
-  color: var(--text-dark);
-  margin: 0 0 24px 0;
-  letter-spacing: -0.01em;
-}
-
-.services-service-cards-ruler {
-  width: 120px;
-  height: 1px;
-  background: var(--secondary);
-  margin: 0 auto;
-  position: relative;
-}
-
-.services-service-cards-ruler::before,
-.services-service-cards-ruler::after {
-  content: '';
-  position: absolute;
-  width: 1px;
-  height: 8px;
-  background: var(--secondary);
-  top: -3px;
-}
-
-.services-service-cards-ruler::before {
-  right: 0;
-}
-
-.services-service-cards-ruler::after {
-  left: 0;
-}
-
-.services-service-cards-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 24px;
-}
-
 .services-service-card {
   background: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(15, 45, 111, 0.12);
@@ -3280,40 +3212,9 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 /* Bottom Divider Wrapper */
-.services-service-cards-divider-wrapper {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 40px;
-  pointer-events: none;
-  z-index: 5;
-}
-
-.services-service-cards-divider-wrapper svg {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
 
 /* Tablet: 2 columns */
 @media (min-width: 768px) {
-  .services-service-cards-section {
-    padding: 100px 32px 120px;
-  }
-
-  .services-service-cards-header {
-    margin-bottom: 70px;
-  }
-
-  .services-service-cards-header h2 {
-    font-size: 36px;
-  }
-
-  .services-service-cards-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 28px;
-  }
 
   .services-service-card {
     padding: 32px 28px;
@@ -3322,22 +3223,6 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 /* Desktop: 3 columns */
 @media (min-width: 1024px) {
-  .services-service-cards-section {
-    padding: 120px 40px 140px;
-  }
-
-  .services-service-cards-header {
-    margin-bottom: 80px;
-  }
-
-  .services-service-cards-header h2 {
-    font-size: 40px;
-  }
-
-  .services-service-cards-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
-  }
 
   .services-service-card {
     padding: 36px 30px;
@@ -3345,11 +3230,6 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 /* Mobile fixes */
-@media (max-width: 767px) {
-  .services-service-cards-grid {
-    grid-template-columns: 1fr !important;
-  }
-}
 
 /* services-checklist */
 .services-checklist-section {
@@ -5232,13 +5112,10 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   }
 }
 
-
-
 /* Global font override - exclude icon fonts and special elements */
 *:not(.fas):not(.far):not(.fab):not(.fa):not([class*="fa-"]):not(.iconify):not([class*="icon"]):not(code):not(pre):not(i[class*="fa"]) {
   font-family: 'Rubik', sans-serif !important;
 }
-
 
 /* Logo size constraint - enforce max-height only */
 .logo, img.logo, .logo img, .logo-link img, .nav-brand img {
@@ -5247,7 +5124,6 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   width: auto !important;
   object-fit: contain !important;
 }
-
 
 /* Hide WhatsApp float button on desktop (mobile-only) */
 @media (min-width: 769px) {
@@ -5258,7 +5134,6 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
     pointer-events: none !important;
   }
 }
-
 
 /* ============================================
    MOBILE RESPONSIVE FIXES (Auto-generated)
@@ -5768,7 +5643,6 @@ nav.navbar .sub-menu li a:hover { color: #2F6BFF !important; background-color: r
   opacity: 0.8;
 }
 
-
 /* Cookie Consent Styles */
 
 /* Cookie Consent Customizations */
@@ -5865,7 +5739,6 @@ nav.navbar .sub-menu li a:hover { color: #2F6BFF !important; background-color: r
   white-space: nowrap !important;
   border: 0 !important;
 }
-
 
 /* Custom Accessibility Toolbar Styling - Zappy Style */
 
@@ -6083,6 +5956,266 @@ body.accessibility-widget-visible ._access-menu {
   body.accessibility-widget-visible div[id*="mic-access-tool-box"],
   body.accessibility-widget-visible ._access-menu {
     display: none !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   V2 REGENERATED SECTION CSS (שירותים-service-cards)
+   Added: 2026-03-14T12:55:29.472Z
+   ═══════════════════════════════════════════════════════════ */
+.services-service-cards-section {
+  position: relative;
+  background-color: #F7F7F5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'%3E%3Cg fill='none' stroke='rgba(30,58,138,0.10)' stroke-width='1'%3E%3Cpath d='M10 80c40-30 90-30 130 0s90 30 130 0'/%3E%3Cpath d='M-10 110c40-30 90-30 130 0s90 30 130 0'/%3E%3Cpath d='M10 140c40-30 90-30 130 0s90 30 130 0'/%3E%3Cpath d='M-10 170c40-30 90-30 130 0s90 30 130 0'/%3E%3C/g%3E%3Cg fill='none' stroke='rgba(212,137,58,0.12)' stroke-width='1'%3E%3Cpath d='M20 30c30-20 70-20 100 0s70 20 100 0'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 320px 320px;
+  background-repeat: repeat;
+  color: var(--text-dark);
+  padding: 80px 16px;
+  overflow: visible;
+  direction: rtl;
+}
+
+.services-service-cards-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.services-service-cards-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.services-service-cards-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: rgba(15,45,111,0.75);
+  margin-bottom: 12px;
+}
+
+.services-service-cards-section h2 {
+  font-family: 'Frank Ruhl Libre', 'David Libre', serif;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 0.00em;
+  line-height: 1.25;
+  color: #1E3A8A;
+  margin: 0 0 20px 0;
+}
+
+.services-service-cards-divider {
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #D4893A 50%, transparent 100%);
+  margin: 0 auto;
+}
+
+.services-service-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 32px;
+  direction: rtl;
+}
+
+.services-service-card {
+  background: rgba(255,255,255,0.78);
+  border-radius: 10px;
+  border: 1px solid rgba(15,45,111,0.14);
+  box-shadow: 0 18px 44px rgba(11,18,32,0.12);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  transition: transform 300ms ease, box-shadow 300ms ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.services-service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #D4893A 0%, #1E3A8A 100%);
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.services-service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 28px 64px rgba(11,18,32,0.18);
+}
+
+.services-service-card:hover::before {
+  opacity: 1;
+}
+
+.services-service-card-inner {
+  padding: 32px 28px;
+}
+
+.services-service-card-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.services-service-card-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(47,107,255,0.08) 0%, rgba(212,137,58,0.08) 100%);
+  border: 1px solid rgba(30,58,138,0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #1E3A8A;
+  transition: background 300ms ease, transform 300ms ease;
+}
+
+.services-service-card:hover .services-service-card-icon {
+  background: linear-gradient(135deg, rgba(47,107,255,0.14) 0%, rgba(212,137,58,0.14) 100%);
+  transform: scale(1.05);
+}
+
+.services-service-card-icon svg {
+  display: block;
+}
+
+.services-service-card-header h3 {
+  font-family: 'Frank Ruhl Libre', 'David Libre', serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #1E3A8A;
+  margin: 0;
+  text-align: right;
+}
+
+.services-service-card-description {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #0B1220;
+  margin: 0 0 24px 0;
+  text-align: right;
+}
+
+.services-service-card-deliverables {
+  padding-top: 20px;
+  border-top: 1px solid rgba(15,45,111,0.12);
+}
+
+.services-service-card-deliverables-title {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(15,45,111,0.75);
+  margin-bottom: 12px;
+  text-align: right;
+}
+
+.services-service-card-deliverables ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+}
+
+.services-service-card-deliverables li {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #0B1220;
+  padding-right: 24px;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: right;
+}
+
+.services-service-card-deliverables li:last-child {
+  margin-bottom: 0;
+}
+
+.services-service-card-deliverables li::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #D4893A;
+  box-shadow: 0 0 8px rgba(212,137,58,0.4);
+}
+
+.services-service-cards-decorative-grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.03;
+  background-image: 
+    linear-gradient(0deg, rgba(30,58,138,0.5) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30,58,138,0.5) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+
+@media (max-width: 768px) {
+  .services-service-cards-section {
+    padding: 60px 16px;
+  }
+
+  .services-service-cards-header {
+    margin-bottom: 40px;
+  }
+
+  .services-service-cards-section h2 {
+    font-size: 24px;
+  }
+
+  .services-service-cards-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px;
+  }
+
+  .services-service-card-inner {
+    padding: 24px 20px;
+  }
+
+  .services-service-card-header {
+    gap: 12px;
+  }
+
+  .services-service-card-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .services-service-card-header h3 {
+    font-size: 18px;
+  }
+
+  .services-service-card-description {
+    margin-bottom: 20px;
+  }
+
+  .services-service-card-deliverables {
+    padding-top: 16px;
+  }
+
+  .services-service-card-deliverables li {
+    padding-right: 20px;
+    margin-bottom: 8px;
   }
 }
 
