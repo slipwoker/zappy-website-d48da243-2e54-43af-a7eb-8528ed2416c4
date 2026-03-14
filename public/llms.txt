@@ -1,47 +1,58 @@
-# Business — Generative Engine Optimization Map
+# משרד עורך דין אלפסי שמעון עו"ד ונוטריון — Generative Engine Optimization Map
+
+> אני רוצה אתר של עורך דין מקרקעין
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://alfasi-shimon-law-office-attor.zappy5.app
 מתכננים לרכוש דירה ראשונה? משרד עו״ד אלפסי שמעון מתמחה בדיני מקרקעין וליווי משפטי מקצועי לעסקאות נדל״ן. ייעוץ אישי וליווי צמוד עד למסירת המפתח.
 
 ### שירותים
-https://example.com/services
+https://alfasi-shimon-law-office-attor.zappy5.app/services
 שירותי עורך דין מקרקעין מקצועיים: בדיקת טאבו, ניסוח חוזים, ליווי משכנתא, ייצוג בפני רשויות ועוד. הגנה מלאה על זכויותיכם בכל שלבי העסקה.
 
 ### אודות
-https://example.com/about
+https://alfasi-shimon-law-office-attor.zappy5.app/about
 עו״ד אלפסי שמעון, עורך דין ונוטריון מומחה בדיני מקרקעין עם ניסיון רב שנים. מחויבות מלאה ללקוחות, מקצועיות ללא פשרות וזמינות מרבית לכל שאלה.
 
 ### צור קשר
-https://example.com/contact
+https://alfasi-shimon-law-office-attor.zappy5.app/contact
 צרו קשר עוד היום לקבלת ייעוץ משפטי מקצועי בנושא מקרקעין. זמינים לשיחה טלפונית, פגישה אישית או התייעצות מקוונת. נשמח לסייע בכל שאלה.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://alfasi-shimon-law-office-attor.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://alfasi-shimon-law-office-attor.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://alfasi-shimon-law-office-attor.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About משרד עורך דין אלפסי שמעון עו"ד ונוטריון
+אני רוצה אתר של עורך דין מקרקעין
+
+## Target Audience
+- רוכשי דירה ראשונה
+- מחפשי נכסים מסחריים
+
+## Industry
+משפטי
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://alfasi-shimon-law-office-attor.zappy5.app/sitemap.xml
+- **Robots.txt**: https://alfasi-shimon-law-office-attor.zappy5.app/robots.txt
