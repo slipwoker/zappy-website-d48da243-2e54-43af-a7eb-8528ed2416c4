@@ -317,16 +317,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+  <button class="phone-header-btn" data-phone="0542205940" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -728,7 +728,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0542205940';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -789,7 +789,7 @@
   </div>
   
   <div class="contact-banner-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,80 L0,42 Q60,38 120,44 T240,40 Q300,45 360,38 T480,42 Q540,39 600,45 T720,40 Q780,44 840,38 T960,42 Q1020,40 1080,45 T1200,42 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
@@ -802,37 +802,37 @@
     <div class="contact-contact-options-grid">
       <div class="contact-contact-options-card">
         <div class="contact-contact-options-icon-wrapper">
-          <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M35 28.5V33.5C35.0011 33.9744 34.8958 34.4429 34.6916 34.8713C34.4875 35.2997 34.1894 35.6772 33.8186 35.9764C33.4478 36.2757 33.0138 36.4893 32.5488 36.6017C32.0838 36.7142 31.5992 36.7227 31.13 36.6265C26.0357 35.6838 21.2528 33.5824 17.145 30.4985C13.3381 27.6919 10.2081 24.1619 7.4015 19.855C4.99983 16.2472 3.39867 12.1642 2.6985 7.87C2.60234 7.40181 2.61054 6.91831 2.72254 6.45426C2.83454 5.99021 3.04749 5.55693 3.34854 5.18663C3.64959 4.81633 4.02994 4.51828 4.46254 4.31395C4.89514 4.10961 5.36814 4.00348 5.847 4.00001H10.847C11.6502 3.99189 12.4303 4.27034 13.0472 4.78852C13.6641 5.3067 14.0769 6.02914 14.2135 6.82501C14.4697 8.41668 14.9029 9.97218 15.505 11.4615C15.7253 12.0108 15.7873 12.6107 15.6841 13.1938C15.5809 13.777 15.3165 14.3207 14.9185 14.7665L12.8085 16.8765C15.3618 20.8535 18.9765 24.4682 22.9535 27.0215L25.0635 24.9115C25.5093 24.5135 26.053 24.2491 26.6362 24.1459C27.2193 24.0427 27.8192 24.1047 28.3685 24.325C29.8578 24.9271 31.4133 25.3603 33.005 25.6165C33.8095 25.7541 34.5394 26.1749 35.0587 26.8024C35.578 27.4299 35.8518 28.2232 35.8335 29.0365L35 28.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3 class="contact-contact-options-card-title">שיחה טלפונית</h3>
         <p class="contact-contact-options-card-text">לשיחת ייעוץ ראשונית או לקביעת פגישה, אנא התקשרו למשרד. אנו זמינים לשרותכם בימים א׳-ה׳ בין השעות 09:00-17:00.</p>
-        <a href="tel:[business_phone]" class="contact-contact-options-phone">[business_phone]</a>
+        <a href="tel:0542205940" class="contact-contact-options-phone">0542205940</a>
       </div>
 
       <div class="contact-contact-options-card">
         <div class="contact-contact-options-icon-wrapper">
-          <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M6.66667 6.66666H33.3333C35 6.66666 36.6667 8.33332 36.6667 9.99999V30C36.6667 31.6667 35 33.3333 33.3333 33.3333H6.66667C5 33.3333 3.33333 31.6667 3.33333 30V9.99999C3.33333 8.33332 5 6.66666 6.66667 6.66666Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             <path d="M36.6667 10L20 21.6667L3.33333 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3 class="contact-contact-options-card-title">דואר אלקטרוני</h3>
         <p class="contact-contact-options-card-text">ניתן לשלוח פניות, שאלות או מסמכים באמצעות דואר אלקטרוני. נשתדל לחזור אליכם תוך 24 שעות בימי עסקים.</p>
-        <a href="mailto:[business_email]" class="contact-contact-options-email">[business_email]</a>
+        <a href="mailto:alfasilaw@gmail.com" class="contact-contact-options-email">alfasilaw@gmail.com</a>
       </div>
 
       <div class="contact-contact-options-card">
         <div class="contact-contact-options-icon-wrapper">
-          <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M20 21.6667C22.7614 21.6667 25 19.4281 25 16.6667C25 13.9052 22.7614 11.6667 20 11.6667C17.2386 11.6667 15 13.9052 15 16.6667C15 19.4281 17.2386 21.6667 20 21.6667Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             <path d="M20 3.33334C16.4638 3.33334 13.0724 4.73809 10.5719 7.23858C8.07143 9.73906 6.66667 13.1305 6.66667 16.6667C6.66667 22.5 11.6667 29.1667 20 36.6667C28.3333 29.1667 33.3333 22.5 33.3333 16.6667C33.3333 13.1305 31.9286 9.73906 29.4281 7.23858C26.9276 4.73809 23.5362 3.33334 20 3.33334Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3 class="contact-contact-options-card-title">כתובת המשרד</h3>
         <p class="contact-contact-options-card-text">המשרד ממוקם במיקום נוח ונגיש. מומלץ לתאם פגישה מראש לקבלת שירות מיטבי ולהימנע מזמני המתנה.</p>
-        <p class="contact-contact-options-address">[business_address]</p>
+        <p class="contact-contact-options-address">רחוב מנצורה 1 ראש העין, ראש העין, מנצורה 1, 1419, ישראל</p>
       </div>
     </div>
 
@@ -841,9 +841,9 @@
         <div class="contact-contact-options-map-text">
           <h3 class="contact-contact-options-map-title">מציאת המשרד</h3>
           <p class="contact-contact-options-map-description">המשרד ממוקם במרכז העיר עם גישה נוחה לתחבורה ציבורית. חניה ציבורית זמינה ברחוב הסמוך. מומלץ להגיע 5 דקות לפני מועד הפגישה. בכניסה למבנה, יש לעלות לקומה השנייה ולפנות לדלת משמאל.</p>
-          <a href="https://maps.google.com/?q=[business_address]" target="_blank" rel="noopener noreferrer" class="contact-contact-options-map-link">
+          <a href="https://maps.google.com/?q=רחוב מנצורה 1 ראש העין, ראש העין, מנצורה 1, 1419, ישראל" target="_blank" rel="noopener noreferrer" class="contact-contact-options-map-link">
             <span>הצג במפות גוגל</span>
-            <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M15 10.8333V15.8333C15 16.2754 14.8244 16.6993 14.5118 17.0118C14.1993 17.3244 13.7754 17.5 13.3333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V6.66667C2.5 6.22464 2.67559 5.80072 2.98816 5.48816C3.30072 5.17559 3.72464 5 4.16667 5H9.16667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               <path d="M12.5 2.5H17.5V7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               <path d="M8.33333 11.6667L17.5 2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -858,7 +858,7 @@
   </div>
 
   <div class="contact-contact-options-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="contact-copper-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style="stop-color:#D4893A;stop-opacity:1"></stop>
@@ -919,7 +919,7 @@
 
   <!-- Bottom Gradient Divider -->
   <div class="contact-contact-form-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="contact-divider-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:rgba(247,247,245,0);stop-"></stop>
@@ -950,9 +950,9 @@
   </div>
   
   <div class="contact-expectations-decoration" aria-hidden="true">
-    <svg data-no-icon-edit="true" viewbox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <pattern id="contact-topo-pattern" x="0" y="0" width="120" height="120" patternunits="userSpaceOnUse">
+        <pattern id="contact-topo-pattern" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
           <path d="M0,30 Q30,25 60,30 T120,30" stroke="rgba(184,179,255,0.08)" fill="none" stroke-width="0.5"></path>
           <path d="M0,60 Q30,55 60,60 T120,60" stroke="rgba(184,179,255,0.06)" fill="none" stroke-width="0.5"></path>
           <path d="M0,90 Q30,85 60,90 T120,90" stroke="rgba(184,179,255,0.08)" fill="none" stroke-width="0.5"></path>
@@ -988,23 +988,23 @@
         <ul class="contact-list">
           <li>
             <i class="fas fa-envelope"></i>
-            <a href="mailto:[business_email]">[business_email]</a>
+            <a href="mailto:alfasilaw@gmail.com">alfasilaw@gmail.com</a>
           </li>
           <li>
             <i class="fas fa-phone"></i>
-            <a href="tel:[business_phone]">[business_phone]</a>
+            <a href="tel:0542205940">0542205940</a>
           </li>
           <li><a href="/"><i class="fas fa-map-marker-alt"></i>
-            <span>[business_address]</span></a></li>
+            <span>רחוב מנצורה 1 ראש העין, 1419, ישראל</span></a></li>
         </ul>
       </div>
       
       <div class="footer-column footer-social">
         <h3 class="footer-title">עקבו אחרינו</h3>
         <div class="social-links">
-          <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
